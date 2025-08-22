@@ -1,0 +1,42 @@
+[gd_scene load_steps=7 format=3 uid="uid://btturyli4j1sy"]
+
+[ext_resource type="Script" uid="uid://cko382c34qrk2" path="res://personnage.gd" id="1_0xj37"]
+[ext_resource type="Texture2D" uid="uid://dou7abpjmifoe" path="res://personnage vert/character_green_climb_a.png" id="1_lyp4m"]
+[ext_resource type="Texture2D" uid="uid://b5emxqbayl3l7" path="res://personnage vert/character_green_climb_b.png" id="2_0xj37"]
+[ext_resource type="Texture2D" uid="uid://dfki2e0toknwj" path="res://personnage vert/character_green_walk_a.png" id="3_frgl3"]
+[ext_resource type="Texture2D" uid="uid://bompdgtl3rt3l" path="res://personnage vert/character_green_walk_b.png" id="4_1d37e"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_7pyua"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_lyp4m")
+}, {
+"duration": 1.0,
+"texture": ExtResource("2_0xj37")
+}],
+"loop": true,
+"name": &"climb",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("3_frgl3")
+}, {
+"duration": 1.0,
+"texture": ExtResource("4_1d37e")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[node name="personnage" type="Node2D"]
+script = ExtResource("1_0xj37")
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
+position = Vector2(609, 434)
+sprite_frames = SubResource("SpriteFrames_7pyua")
+animation = &"walk"
+frame = 1
+frame_progress = 0.857735

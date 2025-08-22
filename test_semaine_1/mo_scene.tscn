@@ -1,0 +1,123 @@
+[gd_scene load_steps=22 format=3 uid="uid://bpi51p7urnmpi"]
+
+[ext_resource type="Texture2D" uid="uid://bvp4dk3o1m0x7" path="res://kenney_toy-brick-pack/PNG/Default/Special/extra_character_e.png" id="1_mghdh"]
+[ext_resource type="Texture2D" uid="uid://ceekd0yqje5c3" path="res://kenney_toy-brick-pack/PNG/Default/Special/extra_character_d.png" id="2_3lxwg"]
+[ext_resource type="Texture2D" uid="uid://bgq22i1nw1d8w" path="res://kenney_toy-brick-pack/PNG/Default/Special/extra_character_b.png" id="3_ahttt"]
+[ext_resource type="Texture2D" uid="uid://difjxghhiljy7" path="res://kenney_toy-brick-pack/PNG/Default/Special/extra_character_c.png" id="4_83aiw"]
+[ext_resource type="Texture2D" uid="uid://do287vhurko0p" path="res://kenney_toy-brick-pack/PNG/Default/Special/extra_box_exclamation.png" id="5_uc5cp"]
+[ext_resource type="Texture2D" uid="uid://cme55lholm8m2" path="res://kenney_toy-brick-pack/PNG/Default/Green/brick_high_4.png" id="6_3rrvc"]
+[ext_resource type="Texture2D" uid="uid://dsjjrpf0w8etm" path="res://kenney_toy-brick-pack/PNG/Default/Blue/brick_high_6.png" id="7_7agyu"]
+[ext_resource type="Texture2D" uid="uid://dqdshg5cc2lc8" path="res://kenney_toy-brick-pack/PNG/Default/Red/brick_high_2.png" id="8_v8ous"]
+[ext_resource type="Texture2D" uid="uid://pe1tb4h2a38p" path="res://kenney_toy-brick-pack/PNG/Default/Red/brick_high_6.png" id="9_tpsyx"]
+[ext_resource type="Texture2D" uid="uid://hm64iwalkrx3" path="res://kenney_toy-brick-pack/PNG/Default/Red/brick_high_slope_right_2.png" id="10_c48y1"]
+[ext_resource type="Texture2D" uid="uid://n35h01o2le86" path="res://kenney_toy-brick-pack/PNG/Default/White/brick_high_6.png" id="11_j2cev"]
+[ext_resource type="Texture2D" uid="uid://coro23fi0ii28" path="res://kenney_toy-brick-pack/PNG/Default/White/brick_high_slope_left_2.png" id="12_j5d0f"]
+[ext_resource type="Texture2D" uid="uid://hoxthta0e4tq" path="res://kenney_toy-brick-pack/PNG/Default/White/brick_high_slope_inverted_right_4.png" id="13_8488u"]
+[ext_resource type="Texture2D" uid="uid://dd3s002ehbm7r" path="res://kenney_toy-brick-pack/PNG/Default/Yellow/brick_high_4.png" id="14_35t8k"]
+[ext_resource type="Texture2D" uid="uid://dou7abpjmifoe" path="res://personnage vert/character_green_climb_a.png" id="15_3cvhr"]
+[ext_resource type="Texture2D" uid="uid://b5emxqbayl3l7" path="res://personnage vert/character_green_climb_b.png" id="16_xkmih"]
+[ext_resource type="Texture2D" uid="uid://dfki2e0toknwj" path="res://personnage vert/character_green_walk_a.png" id="17_icqjb"]
+[ext_resource type="Texture2D" uid="uid://bompdgtl3rt3l" path="res://personnage vert/character_green_walk_b.png" id="18_dqxc7"]
+[ext_resource type="Texture2D" uid="uid://bm4btfkyy160x" path="res://kenney_toy-brick-pack/PNG/Default/Blue/brick_high_2.png" id="19_lytxc"]
+[ext_resource type="Texture2D" uid="uid://dfmhds8ucuk4" path="res://kenney_toy-brick-pack/PNG/Default/Blue/brick_high_4.png" id="20_6x0im"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_yxrri"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("15_3cvhr")
+}, {
+"duration": 1.0,
+"texture": ExtResource("16_xkmih")
+}],
+"loop": true,
+"name": &"climb",
+"speed": 5.0
+}, {
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("17_icqjb")
+}, {
+"duration": 1.0,
+"texture": ExtResource("18_dqxc7")
+}],
+"loop": true,
+"name": &"walk",
+"speed": 5.0
+}]
+
+[node name="MoScene" type="Node2D"]
+
+[node name="ExtraCharacterE" type="Sprite2D" parent="."]
+position = Vector2(568, 392)
+texture = ExtResource("1_mghdh")
+
+[node name="ExtraCharacterD" type="Sprite2D" parent="."]
+position = Vector2(824, 508)
+texture = ExtResource("2_3lxwg")
+
+[node name="ExtraCharacterB" type="Sprite2D" parent="."]
+position = Vector2(652, 505)
+texture = ExtResource("3_ahttt")
+
+[node name="ExtraCharacterC" type="Sprite2D" parent="."]
+position = Vector2(233, 507)
+texture = ExtResource("4_83aiw")
+
+[node name="ExtraBoxExclamation" type="Sprite2D" parent="."]
+position = Vector2(402, 314)
+texture = ExtResource("5_uc5cp")
+
+[node name="BrickHigh4" type="Sprite2D" parent="."]
+position = Vector2(232, 615)
+texture = ExtResource("6_3rrvc")
+
+[node name="BrickHigh6" type="Sprite2D" parent="."]
+position = Vector2(392, 615)
+texture = ExtResource("7_7agyu")
+
+[node name="BrickHigh2" type="Sprite2D" parent="."]
+position = Vector2(824, 560)
+texture = ExtResource("8_v8ous")
+
+[node name="BrickHigh7" type="Sprite2D" parent="."]
+position = Vector2(583, 615)
+texture = ExtResource("9_tpsyx")
+
+[node name="BrickHighSlopeRight2" type="Sprite2D" parent="."]
+position = Vector2(712, 510)
+texture = ExtResource("10_c48y1")
+
+[node name="BrickHigh8" type="Sprite2D" parent="."]
+position = Vector2(295, 563)
+texture = ExtResource("11_j2cev")
+
+[node name="BrickHighSlopeLeft2" type="Sprite2D" parent="."]
+position = Vector2(361, 507)
+texture = ExtResource("12_j5d0f")
+
+[node name="BrickHighSlopeInvertedRight4" type="Sprite2D" parent="."]
+position = Vector2(679, 561)
+texture = ExtResource("13_8488u")
+
+[node name="BrickHigh5" type="Sprite2D" parent="."]
+position = Vector2(449, 561)
+texture = ExtResource("14_35t8k")
+
+[node name="personnage vert" type="AnimatedSprite2D" parent="."]
+position = Vector2(564, 512)
+sprite_frames = SubResource("SpriteFrames_yxrri")
+animation = &"climb"
+frame_progress = 0.572721
+
+[node name="BrickHigh9" type="Sprite2D" parent="."]
+position = Vector2(421, 506)
+texture = ExtResource("8_v8ous")
+
+[node name="BrickHigh10" type="Sprite2D" parent="."]
+position = Vector2(396, 450)
+texture = ExtResource("19_lytxc")
+
+[node name="BrickHigh11" type="Sprite2D" parent="."]
+position = Vector2(105, 615)
+texture = ExtResource("20_6x0im")
