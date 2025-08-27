@@ -9,10 +9,15 @@ Le but est de d'obtenir 3 clées, une clée par dimention pour completer le jeu.
 
 # Choix des interactions avec le clavier
 Touche	         Action
+
 Flèche gauche  → Déplacement du personnage
+
 Flèche droite  → Déplacement du personnage
+
 Flèche haut    → barre espace → Sauter
+
 Flèche bas     → Acroupir
+
 
 # Choix des médias visuels
 Les éléments graphiques des packs Kenney:
@@ -24,8 +29,11 @@ Les visuels choisis sont colorés, modulables et cohérents dans un style pixel 
 
 # Bruitages Sonors:
 Saut → effet sonore léger, inspiré de Mario.
+
 Collecte de pièce → son clair et joyeux.
+
 Échec (chute, mort) → son dramatique mais court.
+
 
 # Musique de fond :
 Une boucle musicale légère, joyeuse, rythmée mais non stressante, pour maintenir l’attention et le plaisir.
