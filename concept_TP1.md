@@ -1,7 +1,5 @@
 # Description du concept de la scène
-Le style visuel est proche de Super Mario Bros pour les plateformes et le bruitage sonnor. 
-
-L'atmosphere est inspirée de Minecraft pour l'ambiance d’exploration et les éléments du décor et musique de fond.
+Le style visuel est proche de Super Mario Bros pour le bruitage sonnor, le concept d'exploration d’exploration et les éléments du décor.
 
 La mecanique du jeu fest inspirer de doodle jump
 
