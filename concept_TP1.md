@@ -6,7 +6,10 @@ L'atmosphere est inspirée de Minecraft pour l'ambiance d’exploration et les �
 La mecanique du jeu fest inspirer de doodle jump
 
 La scène met l’accent sur la réactivité du joueur, la survie et le plaisir de la découverte visuelle et sonore.
-Dans un mode vertical, Le joueur doit sauter sur des plateformes dans un vide coloré en suivant un parcourset collectionner des pieces tout en contournant les ennemis. 
+
+Dans un mode vertical, Le joueur commence sur une plateforme de base. Il doit sauter sur des plateformes dans un vide coloré en suivant un parcourset collectionner des pieces tout en contournant les ennemis. 
+
+Le but est de se rendre tout en haut du parcour.
 
 
 # Choix des interactions avec le clavier
