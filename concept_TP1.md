@@ -1,15 +1,14 @@
 # Description du concept de la scène
-Le style visuel est proche de Super Mario Bros pour les plateformes et le bruitage sonnor. 
-
-L'atmosphere est inspirée de Minecraft pour l'ambiance d’exploration et les éléments du décor et musique de fond.
+Le style visuel est proche de Super Mario Bros pour le bruitage sonnor, le concept d'exploration d’exploration et les éléments du décor.
 
 La mecanique du jeu fest inspirer de doodle jump
 
 La scène met l’accent sur la réactivité du joueur, la survie et le plaisir de la découverte visuelle et sonore.
-Dans un mode vertical, Le joueur doit suivre un parcours en mouvement constant, donc sauter sur des plateformes instables dans un vide coloré et collectionner des pieces tout en contournant les ennemis. 
-Dans le chemain il faut des portails apparaiterons qui nous transportent dans des dimentions d'explorations ou est ce que la platteforme est stable et horizontale et le facteur de parours en mouvement s'arrette, permettant l'exploration libre. 
-Lorsque une des clées est obtenue, ceci teleportera directement le joueur de retour sur la platteforme en mouvement.
-Le but est de d'obtenir 3 clées, une clée par dimention pour completer le jeu.
+
+Dans un mode vertical, Le joueur commence sur une plateforme de base. Il doit sauter sur des plateformes dans un vide coloré en suivant un parcourset collectionner des pieces tout en contournant les ennemis. 
+
+Le but est de se rendre tout en haut du parcour.
+
 
 # Choix des interactions avec le clavier
 Touche	         Action
